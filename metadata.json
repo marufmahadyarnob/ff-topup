@@ -1,0 +1,6 @@
+{
+  "name": "ABR-SHOP Free Fire Diamond Top-Up",
+  "description": "Premium ABR-SHOP Free Fire top-up platform with instant automatic delivery, secure bKash, Nagad, and Rocket payment integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
