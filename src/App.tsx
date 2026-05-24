@@ -90,9 +90,9 @@ export default function App() {
 
   // Payment configuration (numbers are representation for BD context)
   const paymentNumbers = {
-    bkash: { type: 'Personal', number: '01799223344', limit: '৮৫-২০০০৳' },
-    nagad: { type: 'Personal', number: '01855667788', limit: '৮৫-৩০০০৳' },
-    rocket: { type: 'Personal', number: '01911223345-8', limit: '৯৫-২০০০৳' }
+    bkash: { type: 'Personal', number: '01777205950', limit: '৮৫-২০০০৳' },
+    nagad: { type: 'Personal', number: '01777205950', limit: '৮৫-৩০০০৳' },
+    rocket: { type: 'Personal', number: '01777205950', limit: '৯৫-২০০০৳' }
   };
 
   // Toast notifications
@@ -301,7 +301,7 @@ export default function App() {
       `💰 টাকার পরিমান: ৳ ${selectedPack.price}\n\n` +
       `অনুগ্রহ করে আমার অর্ডারটি জলদি কমপ্লিট করে দিন!`
     );
-    window.open(`https://wa.me/8801799223344?text=${encodedMsg}`, '_blank');
+    window.open(`https://wa.me/8801777205950?text=${encodedMsg}`, '_blank');
   };
 
   // Handle Client Review submitting
